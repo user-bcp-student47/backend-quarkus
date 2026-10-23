@@ -1,0 +1,14 @@
+// FlowEventType.java
+package model;
+
+public enum FlowEventType {
+    FLOW_STARTED,
+    STEP_COMPLETED,
+    FLOW_SUBMITTED,
+    KYC_SUBMISSION_STARTED,
+    KYC_VERIFICATION_CREATED,
+    KYC_UNAVAILABLE,
+    KYC_RESULT,
+    SUBMISSION_UNKNOWN,
+    FLOW_CLOSED
+}
